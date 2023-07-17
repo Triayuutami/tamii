@@ -1,0 +1,69 @@
+body{
+	font: 16/28px arial, sans-serif;
+	/*background-color:#eaeaea;*/
+	background-image: url(../image/sativa.png);
+	color: #0402C2;
+}
+/*ini bagian kontainer*/
+.container{
+	width: 950px;
+	margin: auto;
+	background-color:#E1BEE7;
+}
+/*ini bagian header*/
+.header{
+	padding: 20px;
+}
+.header.judul{
+	font.size: 40px;
+	font.width: bold
+}
+.header ul li{
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.header a{
+	text-decoration:none;
+	color:#2B662E;
+	padding: 5px;
+}
+.header a:hover{
+	/*backround-color: orange;*/
+	color: black;
+	border-bottom: solid 3px orange;
+	font-size: 20px;
+}
+/*batas bagian header*/
+/*bagian banner*/
+.banner{
+	height: 280px;
+	background-image: url(../image/jujutsu.jpg);
+	background-size: cover;
+	background-position: 0, -180px;
+	border-bottom: 3px solid orange;
+}
+.content{
+	padding: 20px;
+}
+.content h2{
+	font-size: 28px;
+	margin-top: -2px;
+}
+.content penulis{
+	color: orange;
+	text-decoration: none;
+}
+.content p{
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.footer{
+	background-color: #333;
+	padding: 15px;
+}
+.footer.copy{
+	color: #eaeaea;
+	text-align: center;
+	font-size: 15px;
+}
